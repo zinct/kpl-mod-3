@@ -64,24 +64,38 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button3.Text;
+                }
+                else
+                {
+                    calculator.Add(button3.Text);
                 }
             }
-            calculator.Add(button3.Text);
+            else
+            {
+                calculator.Add(button3.Text);
+            }
             updateUI();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if(calculator.Count > 0)
+
+            if (calculator.Count > 0)
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button4.Text;
+                }
+                else
+                {
+                    calculator.Add(button4.Text);
                 }
             }
-            
-            calculator.Add(button4.Text);
+            else
+            {
+                calculator.Add(button4.Text);
+            }
             updateUI();
         }
 
@@ -91,10 +105,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button5.Text;
+                }
+                else
+                {
+                    calculator.Add(button5.Text);
                 }
             }
-            calculator.Add(button5.Text);
+            else
+            {
+                calculator.Add(button5.Text);
+            }
             updateUI();
         }
 
@@ -104,10 +125,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button6.Text;
+                }
+                else
+                {
+                    calculator.Add(button6.Text);
                 }
             }
-            calculator.Add(button6.Text);
+            else
+            {
+                calculator.Add(button6.Text);
+            }
             updateUI();
         }
 
@@ -117,10 +145,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button7.Text;
+                }
+                else
+                {
+                    calculator.Add(button7.Text);
                 }
             }
-            calculator.Add(button7.Text);
+            else
+            {
+                calculator.Add(button7.Text);
+            }
             updateUI();
         }
 
@@ -130,10 +165,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button8.Text;
+                }
+                else
+                {
+                    calculator.Add(button8.Text);
                 }
             }
-            calculator.Add(button8.Text);
+            else
+            {
+                calculator.Add(button8.Text);
+            }
             updateUI();
         }
 
@@ -143,10 +185,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button9.Text;
+                }
+                else
+                {
+                    calculator.Add(button9.Text);
                 }
             }
-            calculator.Add(button9.Text);
+            else
+            {
+                calculator.Add(button9.Text);
+            }
             updateUI();
         }
 
@@ -156,10 +205,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button10.Text;
+                }
+                else
+                {
+                    calculator.Add(button10.Text);
                 }
             }
-            calculator.Add(button10.Text);
+            else
+            {
+                calculator.Add(button10.Text);
+            }
             updateUI();
         }
 
@@ -169,10 +225,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button11.Text;
+                }
+                else
+                {
+                    calculator.Add(button11.Text);
                 }
             }
-            calculator.Add(button11.Text);
+            else
+            {
+                calculator.Add(button11.Text);
+            }
             updateUI();
         }
 
@@ -182,10 +245,17 @@ namespace kpl_mod_3
             {
                 if (calculator[calculator.Count - 1] != "+")
                 {
-                    return;
+                    calculator[calculator.Count - 1] = calculator[calculator.Count - 1] + button12.Text;
+                }
+                else
+                {
+                    calculator.Add(button12.Text);
                 }
             }
-            calculator.Add(button12.Text);
+            else
+            {
+                calculator.Add(button12.Text);
+            }
             updateUI();
         }
     }
